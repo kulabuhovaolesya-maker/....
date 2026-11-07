@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нова професія — Перший крок</title>
+    <style>
+        /* Базовые стили */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            background-color: #f4f7f6;
+        }
+
+        /* Шапка / Проводник */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        /* Главный экран (Hero Section) */
+        .hero {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        /* Заголовок (Самый крупный, зеленый цвет) */
+        .hero h1 {
+            font-size: 42px;
+            color: #2e7d32;
+            margin-bottom: 20px;
+        }
+
+        /* Описание */
+        .hero p {
+            font-size: 18px;
+            color: #555555;
+            margin-bottom: 30px;
+        }
+
+        /* Главная кнопка (Голубой цвет) */
+        .btn-main {
+            display: inline-block;
+            padding: 15px 35px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #0088cc;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-main:hover {
+            background-color: #006699;
+        }
+
+        /* Блок возможностей / Категории */
+        .features {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .features h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #0088cc;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Навигация -->
+    <header>
+        <div class="logo">КВФ</div>
+    </header>
+
+    <!-- Первый экран (Hero) -->
+    <section class="hero">
+        <h1>Нова професія</h1>
+        <p>Оцініть власні сильні сторони, дізнайтеся, які навички можна перенести в нову сферу, та знайдіть реалістичні початкові вакансії без нездійсненних обіцянок.</p>
+        <button class="btn-main">Нова професія</button>
+    </section>
+
+    <!-- Блок возможностей -->
+    <section class="features">
+        <h2>Можливості та кроки перекваліфікації</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Описи посад</h3>
+                <p>Зрозумілі вимоги та реалістичні умови праці на початкових позиціях.</p>
+            </div>
+            <div class="card">
+                <h3>Перенос навичок</h3>
+                <p>Аналіз вашого попереднього досвіду для легкого переходу в онлайн-сферу.</p>
+            </div>
+            <div class="card">
+                <h3>Прозорі умови</h3>
+                <p>Чесна інформація про ринок праці без обіцянок «швидкого та легкого заробітку».</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
